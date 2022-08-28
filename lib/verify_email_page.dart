@@ -22,7 +22,7 @@ class _VerifyEmailPageState extends State<VerifyEmailPage> {
     if (!isEmailVerified) {
       sendVerificationEmail();
 
-      timer = Timer.periodic(Duration(seconds: 3), (_) => checkEmailVerified());
+      timer = Timer.periodic(const Duration(seconds: 3), (_) => checkEmailVerified());
     }
     super.initState();
   }
@@ -60,18 +60,18 @@ class _VerifyEmailPageState extends State<VerifyEmailPage> {
       ? const HomeScreen()
       : Scaffold(
           appBar: AppBar(
-            title: Text('Email verification'),
+            title: const Text('Email verification'),
           ),
           body: LayoutBuilder(
             builder: (context, constraints) {
               return SingleChildScrollView(
-                physics: AlwaysScrollableScrollPhysics(),
+                physics: const AlwaysScrollableScrollPhysics(),
                 child: ConstrainedBox(
                   constraints: BoxConstraints(
                       minWidth: constraints.minWidth,
                       minHeight: constraints.minHeight,
                       maxHeight: constraints.maxHeight),
-                  child: Center(),
+                  child: const Center(),
                 ),
               );
             },
