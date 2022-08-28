@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "369172449183-bm9vrbipra77hf34iiiffspbts373bev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.password_bucket_private",
+            "certificate_hash": "2eb695e6e12493541dc59ce41bc0e882b5057ddd"
+          }
+        },
+        {
           "client_id": "369172449183-p1qq8ni5np672bkog75vo9teupu1beo7.apps.googleusercontent.com",
           "client_type": 3
         }
