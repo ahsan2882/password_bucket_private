@@ -37,12 +37,13 @@ dependencies:
   firebase_core:
   firebase_auth:
   provider:
-  intl_phone_number_input:
+  # intl_phone_number_input:
   cloud_firestore:
-  local_auth: ^2.1.2
-  flutter_secure_storage: ^6.0.0
-  google_sign_in: ^5.4.1
-  internet_connection_checker: ^0.0.1+4
+  local_auth:
+  flutter_secure_storage:
+  google_sign_in:
+  internet_connection_checker:
+  phone_number:
 
 dev_dependencies:
   flutter_test:
