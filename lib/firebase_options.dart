@@ -63,6 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '369172449183',
     projectId: 'password-bucket-private-sha',
     storageBucket: 'password-bucket-private-sha.appspot.com',
+    androidClientId: '369172449183-bm9vrbipra77hf34iiiffspbts373bev.apps.googleusercontent.com',
     iosClientId: '369172449183-4a9i1vs5ubpinqncalqm0d9psql1lt7d.apps.googleusercontent.com',
     iosBundleId: 'com.example.passwordBucketPrivate',
   );
