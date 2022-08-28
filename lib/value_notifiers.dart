@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 
-ValueNotifier<bool> loggedIn = ValueNotifier<bool>(false);
 
-ValueNotifier<bool> disableRegisterButton = ValueNotifier<bool>(false);
-ValueNotifier<bool> showMessagePopup = ValueNotifier<bool>(false);
-ValueNotifier<String> showMessagePopupText = ValueNotifier<String>('');
+final ValueNotifier<bool> disableRegisterButtonNotifier = ValueNotifier<bool>(false);
+final ValueNotifier<String> showMessagePopupTextNotifier = ValueNotifier<String>('');
+
+final ValueNotifier<String> fullNameNotifier = ValueNotifier<String>('');
+final ValueNotifier<String> phoneNumberNotifier = ValueNotifier<String>('');
+final ValueNotifier<String> emailNotifier = ValueNotifier<String>('');
+final ValueNotifier<String> passwordNotifier = ValueNotifier<String>('');
+final ValueNotifier<String> confirmPasswordNotifier =
+ValueNotifier<String>('');
+final ValueNotifier<bool> isUserLoggedInNotifier = ValueNotifier<bool>(false);
