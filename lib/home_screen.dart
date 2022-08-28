@@ -1,9 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:password_bucket_private/login_screen.dart';
-import 'package:password_bucket_private/states/current_user.dart';
 import 'package:password_bucket_private/verify_email_page.dart';
-import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -48,9 +46,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     ElevatedButton(
                         onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context)=>const VerifyEmailPage()));
-                        }, child: Text('Verify email')),
+                        }, child: const Text('Verify email')),
                     ElevatedButton(
-                        onPressed: () {}, child: Text('Verify Phone Number'))
+                        onPressed: () {}, child: const Text('Verify Phone Number'))
                   ],
                 ),
               ),
