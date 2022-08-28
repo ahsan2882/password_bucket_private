@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     precacheImage(const AssetImage('assets/images/vault.png'), context);
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(9, 11, 115, 1.0),
+      backgroundColor: Theme.of(context).primaryColor,
       body: LayoutBuilder(builder: (context, constraints) {
         return Center(
             child: ConstrainedBox(
